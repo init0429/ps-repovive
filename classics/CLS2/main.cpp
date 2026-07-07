@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include <iostream>
+
+using namespace std;
 
 int f(int n) {
   if (n == 0) return 0;
@@ -8,9 +10,9 @@ int f(int n) {
 
 int main() {
   int n;
-  scanf("%d", &n);
+  cin >> n;
 
-  printf("%d", f(n));
+  cout << f(n);
 
   return 0;
 }
