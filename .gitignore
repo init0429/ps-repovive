@@ -1,0 +1,44 @@
+# Build outputs
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.dylib
+*.so
+*.a
+*.lib
+*.class
+
+# Common local binaries from competitive programming
+a.out
+main
+main.exe
+solution
+solution.exe
+*.bin
+
+# Debug and profiling artifacts
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+gmon.out
+core
+core.*
+
+# Local input/output scratch files
+input.txt
+output.txt
+*.in
+*.out.txt
+*.ans
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
